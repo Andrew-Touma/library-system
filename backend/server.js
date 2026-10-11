@@ -22,9 +22,9 @@ app.use(rateLimiter);
 // Routes 
 app.use('/api/auth', authRoutes);
 app.use('/api/books', bookRoutes);
-app.use('/api', borrowRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/requests', requestRoutes);
+app.use('/api', borrowRoutes);
 
 app.get('/heartbeat', (req,res) =>{
     res.send("Library API Runing");
