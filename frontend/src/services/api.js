@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://library-system-hrvt.onrender.com'
+  baseURL: 'https://library-system-hrvt.onrender.com/api'
 })
 
 api.interceptors.request.use((config) => {
