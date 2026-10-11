@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavBar'
 import BookCard from '../components/BookCard'
 import api from '../services/api'
 
